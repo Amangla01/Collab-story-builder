@@ -19,7 +19,7 @@ const io = socketio(server, {
 })
 
 
-app.use(cors({origin: "http://localhost:5173"}))
+app.use(cors({origin: "*"}))
 app.use(express.json());
 
 connectDB();
