@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-    baseURL: "http://13.232.46.81:5000/",
+    baseURL: "https://collab-story-builder-api.onrender.com/api",
 })
 
 API.interceptors.request.use((req) => {
